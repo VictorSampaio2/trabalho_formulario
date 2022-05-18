@@ -1,0 +1,80 @@
+<index class="html"></index>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Formulário</title>
+<meta charset="UTF-8">
+</head>
+<body>
+<p> a) Victor Sampaio <br>
+    b) 	Responda as perguntas abaixo:<br>
+    a.	Na tag input com atributo type="text", para que serve o atributo "placeholder"?<br>
+    especifica uma dica curta que descreve o valor esperado de um campo de entrada (um valor de amostra ou uma breve descricao do formato esperado).<br>
+    b.	Na tag input com atributo type="radio" ou type="checkbox", para que serve o atributo "checked"?<br>
+    Especifica que um campo de entrada deve ser pre-selecionado quando a pagina for carregada<br>
+    c.	Na tag input para que serve o atributo "value"?<br>
+    Especifica o valor padrao para um campo de entrada<br>  
+    d.	Que atributo deve ser utilizado para agrupar varios botoes de radio em um formulario de modo que apenas um deles fique marcado de cada vez?<br>
+    name<br>
+    e.	Para que serve a tag label? Para que serve o atributo "for" nessa tag?<br>
+    elemento define um rotulo para varios elementos de formulario. O atributo for faz um tipo de link entre a label e o input. Logo o for tem que apontar para o ID do input. <br>
+    f.	Na tag option para que serve o atributo "selected"?<br>
+    Para definir uma opcao pre-selecionada<br>
+    g.	Nas tags de formulario para que serve o atributo "required"?<br>
+    Especifica que um campo de entrada e obrigatorio (deve ser preenchido)  <br>
+    h.	Na tag form para que serve o atributo "action"?<br>
+    serve para informar o arquivo que ira processar as informacoes enviadas pelo formulario<br>
+    i.	Na tag form para que serve o atributo "method"<br>
+    Serve para informar o metodo de envio de informacoes<br>
+    j.	Para que o valor digitado de uma senha nao apareca na barra de enderecos do navegador, qual deve ser o valor do atributo "method" na tag form?<br>
+    password<br>
+    k.	Qual valor deve ser informado no atributo "method" na tag form em um formulario que sera usado para fazer upload de arquivos?  <br>
+</p>
+</body>
+<body>   
+    <h1>Formulário</h1>
+    <fieldset>
+    <form action="">
+<legend>
+        Dados Pessoais<br>
+</legend>
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome"><br>
+        <label for="Data de Nascimento">Data de Nascimento </label>
+        <input type="text" id="Data de Nascimento" name="Data de Nascimento"><br>
+        <label for="Email">Email </label>
+        <input type="text" id="Email" name="Email"><br>
+        <label for="Telefone">Telefone </label>
+        <input type="text" id="Telefone" name="Telefone">
+</fieldset>
+<fieldset>
+<legend>
+    Dados Acadêmicos
+</legend>
+<label for="Curso">Curso</label>
+<select>
+<option>ADS</option> 
+<option>GTI</option>  
+<option>TBD</option>   
+<option>TSI</option>      
+</select><br>
+<label for="Semestre">Semestre</label>
+<input type="radio"><label for="name">1°</label>
+<input type="radio"><label for="name">2°</label>
+<input type="radio"><label for="name">3°</label>
+<input type="radio"><label for="name">4°</label>
+<input type="radio"><label for="name">5°</label>
+</fieldset>
+<fieldset>
+<label for="nome">Trabalha?</label>
+<input type="checkbox"><br>
+<label for="nome">Local de Trabalho:</label>
+<input type="text" id= "local de trabalho" name= "local de trabalho"><br>
+<label for="nome">Descreva sua experiência:</label><br>
+<textarea></textarea>
+</fieldset>
+<input type="submit" value="Gravar">
+<input type="submit" value="Limpar">
+</form>
+</body>
+</html>
